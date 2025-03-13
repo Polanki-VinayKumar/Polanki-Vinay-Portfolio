@@ -4,57 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J Vinay K Polanki's Portfolio</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            transition: background 0.3s, color 0.3s;
         }
         .container {
             width: 80%;
-            margin: auto;
-            overflow: hidden;
+            margin: 20px auto;
             background: white;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
         h1, h2, h3 {
-            color: #333;
+            color: #222;
         }
-        img {
-            max-width: 200px;
+        .profile-img {
+            width: 150px;
             border-radius: 50%;
             display: block;
             margin: 20px auto;
         }
-        a {
-            color: #0073e6;
-            text-decoration: none;
+        .social-links {
+            text-align: center;
+            margin: 10px 0;
         }
-        a:hover {
-            text-decoration: underline;
+        .social-links a {
+            margin: 0 10px;
+            color: #0073e6;
+            font-size: 24px;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            color: #005bb5;
+            transform: scale(1.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        .skill-icons {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: #0073e6;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .toggle-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .dark-mode {
+            background: #333;
+            color: white;
+        }
+        .dark-mode .container {
+            background: #222;
+        }
+        .dark-mode .skill {
+            background: #005bb5;
         }
     </style>
 </head>
 <body>
+    <button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    
     <div class="container">
-        <img src="Polanki-Vinay-Portfolio/Images/IMG_5630.jpeg" alt="J Vinay K Polanki">
-        <h1>J Vinay K Polanki's Portfolio</h1>
-        
+        <img src="Polanki-Vinay-Portfolio/Images/IMG_5630.jpeg" alt="J Vinay K Polanki" class="profile-img">
+        <h1 style="text-align: center;">J Vinay K Polanki's Portfolio</h1>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/j-vinay-k-polanki-28157931b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/vinay-polanki" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:vinaypolanki.j@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.credly.com/users/j-vinay-k-polanki" target="_blank"><i class="fas fa-certificate"></i></a>
+        </div>
+
         <h2>About Me</h2>
         <p>With a diverse background in <strong>aeronautical engineering, mechanical systems, and international business management</strong>, I thrive at the intersection of <strong>technology, strategy, and problem-solving</strong>. My passion lies in <strong>innovation, efficiency, and data-driven decision-making</strong> to create <strong>smart, scalable solutions</strong>.</p>
-        
-        <h2>📌 Professional Profiles & Contact</h2>
-        <p>
-            <a href="https://www.linkedin.com/in/j-vinay-k-polanki-28157931b/">LinkedIn</a> |
-            <a href="https://github.com/vinay-polanki">GitHub</a> |
-            <a href="mailto:vinaypolanki.j@gmail.com">Email</a> |
-            <a href="https://www.credly.com/users/j-vinay-k-polanki">Credly</a>
-        </p>
-        
+
         <h2>🎓 Education</h2>
         <ul>
             <li><strong>MSc in Business Analytics</strong> – Murray State University (Ongoing, 27 Credits)</li>
@@ -62,29 +114,18 @@
             <li><strong>B.Tech in Aeronautical Engineering</strong> – PVPSIT (Completed, 2018 | CGPA: 8.11)</li>
             <li><strong>Diploma in Mechanical Engineering</strong> – State Board of Technical Education (Completed, 2015 | Score: 77.27%)</li>
         </ul>
-        
+
         <h2>🛠 Skills</h2>
-        <h3>Soft Skills</h3>
-        <ul>
-            <li>Data-Driven Decision Making</li>
-            <li>Problem-Solving & Technical Expertise</li>
-            <li>Leadership & Project Management</li>
-            <li>Cross-Functional Collaboration</li>
-            <li>Analytical Thinking & Forecasting</li>
-        </ul>
-        
-        <h3>Technical Skills</h3>
-        <ul>
-            <li><strong>Data Visualization:</strong> Tableau</li>
-            <li><strong>Programming:</strong> Python, R, SQL</li>
-            <li><strong>Cloud Technologies:</strong> AWS, GCP</li>
-            <li><strong>ETL Tools:</strong> SSIS</li>
-            <li><strong>Web Development:</strong> HTML</li>
-            <li><strong>Operating Systems:</strong> Windows, iOS</li>
-            <li><strong>Productivity Tools:</strong> G-Suite, MS Office, Trello</li>
-            <li><strong>Design Software:</strong> AutoCAD, CATIA V5 R15</li>
-        </ul>
-        
+        <div class="skill-icons">
+            <div class="skill"><i class="fas fa-chart-bar"></i> Data Visualization (Tableau)</div>
+            <div class="skill"><i class="fas fa-code"></i> Python, R, SQL</div>
+            <div class="skill"><i class="fab fa-aws"></i> AWS, GCP</div>
+            <div class="skill"><i class="fas fa-database"></i> ETL (SSIS)</div>
+            <div class="skill"><i class="fas fa-laptop-code"></i> Web Development (HTML)</div>
+            <div class="skill"><i class="fab fa-windows"></i> Windows, iOS</div>
+            <div class="skill"><i class="fas fa-tools"></i> AutoCAD, CATIA V5</div>
+        </div>
+
         <h2>💼 Work Experience</h2>
         <h3>Operations Manager Intern – Vreestory for Romania (Jan 2021 - Apr 2021)</h3>
         <ul>
@@ -92,7 +133,7 @@
             <li>Conducted <strong>market research</strong> and devised <strong>strategic client approaches</strong>.</li>
             <li>Led <strong>team coordination</strong> through virtual meetings and reports.</li>
         </ul>
-        
+
         <h2>🚀 Projects</h2>
         <h3>📌 Flight Delay Prediction (Python & R)</h3>
         <ul>
@@ -102,15 +143,12 @@
             <li>🔹 Built a <strong>machine learning model</strong> to improve scheduling efficiency.</li>
             <li>🔹 Deployed an <strong>interactive dashboard</strong> to visualize predictions.</li>
         </ul>
-        
-        <h3>📌 Aviation Laws & Airport Supply Chain Management</h3>
-        <ul>
-            <li><strong>Objective:</strong> Evaluate impact of <strong>aviation laws</strong> on <strong>airport operations</strong>.</li>
-            <li><strong>Tools:</strong> Tableau, SQL, R</li>
-            <li><strong>Key Techniques:</strong> Data Visualization, Regulatory Analysis</li>
-            <li>🔹 Designed a <strong>comprehensive analysis</strong> for airport supply chains.</li>
-            <li>🔹 Analyzed <strong>legal frameworks</strong> impacting airport logistics and operations.</li>
-        </ul>
     </div>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
 </body>
 </html>
