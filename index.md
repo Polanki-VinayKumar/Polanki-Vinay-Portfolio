@@ -11,7 +11,7 @@ Driven by curiosity and innovation, he thrives on transforming complex challenge
 ## Professional Profiles & Contact
 <!-- Social Links -->
 <div style="margin-top: 30px;">
-  <a href="www.linkedin.com/in/j-vinay-k-polanki-28157931b" target="_blank" style="margin-right: 50px;">
+  <a href="https://www.linkedin.com/in/j-vinay-k-polanki-28157931b/" target="_blank" style="margin-right: 50px;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width:25px;margin-bottom: 30px;">
   </a>
   <a href="https://github.com/Polanki-VinayKumar" target="_blank" style="margin-right: 50px;">
