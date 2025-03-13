@@ -2,24 +2,22 @@
 
 
 ### About Me:
-With a dynamic background in aeronautical engineering, mechanical systems, and international business management from London, I thrive at the intersection of technology, strategy, and problem-solving. My journey has been defined by a passion for innovation, efficiency, and data-driven decision-making.
+With a diverse background spanning aeronautical engineering, mechanical systems, and international business management, Joseph Vinay Kumar Polanki brings a unique perspective to problem-solving. His journey has been shaped by a strong analytical mindset, a keen eye for optimization, and a deep understanding of data-driven decision-making. Having pursued higher education in London, he blends technical proficiency with strategic business insights, allowing him to bridge the gap between technology and operational efficiency.
 
-I specialize in transforming complex challenges into smart, scalable solutions. Whether it’s optimizing operations, uncovering insights from data, or streamlining workflows, I focus on creating real impact. Adaptability and continuous learning drive my approach, allowing me to stay ahead in an ever-evolving landscape.
-
-I’m always looking for opportunities to contribute, collaborate, and push boundaries. If you’re looking for someone who blends technical expertise with strategic thinking, let’s connect!
+Driven by curiosity and innovation, he thrives on transforming complex challenges into streamlined solutions. Whether working on technical projects, refining workflows, or exploring emerging technologies, his focus remains on creating meaningful impact. With a commitment to continuous learning and adaptability, he embraces new opportunities that push the boundaries of efficiency and performance.
 
 ---
 
 ## Professional Profiles & Contact
 <!-- Social Links -->
 <div style="margin-top: 30px;">
-  <a href="https://www.linkedin.com/in/j-vinay-k-polanki-28157931b/" target="_blank" style="margin-right: 50px;">
+  <a href="www.linkedin.com/in/j-vinay-k-polanki-28157931b" target="_blank" style="margin-right: 50px;">
     <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width:25px;margin-bottom: 30px;">
   </a>
-  <a href="https://github.com/vinay-polanki" target="_blank" style="margin-right: 50px;">
+  <a href="https://github.com/Polanki-VinayKumar" target="_blank" style="margin-right: 50px;">
     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" style="width:25px;margin-bottom: 30px;">
   </a>
-  <a href="mailto:polanki.vinay.k@gmail.com" style="margin-right: 50px;">
+  <a href="mailto:vinaypolanki.j@gmail.com" style="margin-right: 50px;">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" style="width:25px;margin-bottom: 30px;">
   </a>
   <a href="https://www.credly.com/users/j-vinay-k-polanki" target="_blank">
@@ -95,28 +93,6 @@ This project explores the impact of aviation laws on airport supply chain manage
 **Key Findings:**  
 - Many aviation policies positively impact SCM, though certain regulatory gaps present operational challenges within airports.  
 - Addressing these gaps can enhance supply chain efficiency, benefiting stakeholders and policymakers focused on optimizing airport operations.
-
----
-
-### McDonald’s Marketing, Sustainability, and Corporate Social Responsibility Strategies
-**Project Brief:**  
-This project examines McDonald’s transformation from a small hamburger stand into a global fast-food icon, analyzing its marketing, sustainability, and corporate social responsibility (CSR) strategies. McDonald’s efficient service, affordable meals, and cultural adaptations contributed to its global success, but environmental impacts have raised concerns.
-
-<img src="assets/images/Mc_D.jpg" alt="5P's Of McD">
-
-**Key Findings and Recommendations:**  
-- McDonald’s has responded to criticism by adopting sustainable practices, such as recyclable packaging and sustainable beef production.
-- Recommendations include investing in sustainable farming and reusable packaging to reinforce McDonald's CSR commitment.
-
----
-
-### Expanding Horizons: Sainsbury's Entry Strategy into Singapore
-**Project Brief:**  
-This project outlines Sainsbury’s strategy for expanding into the Singaporean market, leveraging its UK-based market experience. The plan identifies key locations, competitor analysis, and Singaporean consumer behaviors to ensure a smooth market entry.
-
-**Highlights:**  
-- Infographic-style poster summarizing Sainsbury’s history, competitors, and Singaporean consumer behavior.
-- Emphasis on partnerships and innovative services to attract the local market.
 
 ---
 
