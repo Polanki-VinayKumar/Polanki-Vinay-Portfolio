@@ -2,7 +2,7 @@ title: ""
 logo: "assets/images/Profile_Pict.PNG"
 theme: jekyll-theme-minimal
 show_downloads: false  # Disable default downloads section
-description: "Data Engineer with expertise in engineering, business analytics, and management, using cloud technologies to drive impactful data solutions."
+description: ""
 
 css:
   - /assets/styles.css
